@@ -48,7 +48,7 @@ nav li {
   margin-top: 11px;
   text-decoration: none;
   color: black;
-  font-size: 1.125rem;
+  font-size: 17px;
   margin-right: 15px;
   font-weight: 700;
 }
@@ -59,7 +59,48 @@ nav li {
 }
 
 .active {
-  color: #fd8c04;
+  color: #ec5858;
   padding-bottom: 2px;
-  border-bottom: 2px solid #fd8c04;
+  border-bottom: 2px solid #ec5858;
+}
+
+/* ==========
+ CTA Section
+========== */  
+
+.cta-div {
+  border-left: 4px solid #ec5858;
+}
+
+.cta-img {
+  width: 100%;
+  height: 88vh;
+  object-fit: cover;
+  object-position: 50% 70%;
+  filter: brightness(90%);
+  position: relative;
+}
+
+.cta-title {
+  color:  white;
+  font-size: 2.725rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  position: absolute;
+  top: 250px;
+  left: 75px;
+  text-transform: uppercase;
+}
+
+.cta-subtitle {
+  border-left: 4px solid #ec5858;
+  padding-left: 20px;
+  color: white;
+  font-size: 1.5rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  width: 500px;
+  position: absolute;
+  top: 310px;
+  left: 87px;
 }
