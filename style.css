@@ -76,7 +76,7 @@ nav li {
   width: 100%;
   height: 88vh;
   object-fit: cover;
-  object-position: 50% 70%;
+  object-position: 10% 70%;
   filter: brightness(90%);
   position: relative;
 }
@@ -103,4 +103,39 @@ nav li {
   position: absolute;
   top: 310px;
   left: 87px;
+}
+
+input[type=text] {
+  width: 310px;
+  padding: 11px 25px;
+  font-size: 17px;
+  border: none;
+  border-bottom: 3px solid #ec5858;
+  font-family: 'Roboto', sans-serif;
+  border-radius: 3px;
+  font-weight: 700;
+}
+
+input[type=text]:focus {
+  outline: none;
+}
+
+input[type=submit] {
+  margin-left: -6px;
+  width: 110px;
+  padding: 11px 10px 13.9px 10px;
+  font-size: 17px;
+  border: none;
+  background-color: #ec5858;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  font-weight: 300;
+}
+
+form {
+  position: absolute;
+  top: 430px;
+  left: 88px;
 }
