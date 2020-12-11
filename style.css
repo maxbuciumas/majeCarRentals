@@ -13,8 +13,8 @@ header {
 }
 
 .logo-img {
-  width: 125px;
-  margin: 0px 0px 0px 30px;
+  width: 75px;
+  margin: 28px 5px 0px 30px;
   filter: invert(56%) sepia(39%) saturate(6113%) hue-rotate(330deg) brightness(95%) contrast(85%);
 }
 
@@ -46,7 +46,7 @@ nav li {
 }
 
 .login-link {
-  margin-top: 34px;
+  margin-top: 36px;
   text-decoration: none;
   color: black;
   font-size: 17px;
@@ -57,7 +57,7 @@ nav li {
 .login-img {
   height: 35px;
   margin-right: 25px;
-  margin-top: 26px;
+  margin-top: 28px;
 }
 
 .nav-link:hover {
@@ -143,4 +143,121 @@ form {
   top: 430px;
   left: 401px;
   text-align: center;
+}
+
+/* Models Section */
+
+.models-section-title {
+  font-size: 2.375rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  margin: 25px 0px 25px 75px;
+}
+
+.models-section-div {
+  display: flex;
+}
+
+.model-div {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  position: relative;
+  height: 55vh;
+}
+.model-title {
+  position: absolute;
+  top: 5px;
+  font-size: 34px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  letter-spacing: 0px;
+  color: white;
+  z-index: 1;
+  margin: 10px 0px 0px 25px;
+}
+
+.model-price {
+  position: absolute;
+  top: 40px;
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 500;
+  word-spacing: 2px;
+  letter-spacing: 1px;
+  color: white;
+  z-index: 1;
+  margin: 16px 0px 0px 27px;
+}
+
+#mclaren-img {
+  width: 100%;
+  filter: brightness(90%);
+  object-fit: cover;
+  height: 375px;
+}
+
+#bmw-img {
+  width: 100%;
+  transform: scaleX(-1);
+  filter: brightness(60%);
+  object-fit: cover;
+  height: 375px;
+}
+
+#amg-img {
+  width: 100%;
+  transform: scaleX(-1);
+  filter: brightness(65%);
+  object-fit: cover;
+  height: 375px;
+}
+
+.link-div {
+  position: absolute;
+  top: 295px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.model-link-book {
+  width: 180px;
+  margin: 0px 0px 0px 30px;
+  padding: 14px 12px 14px 12px;
+  font-size: 16px;
+  border: 1px solid white;
+  background-color: white;
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  letter-spacing: 0px;
+  text-decoration: none;
+  position: absolute;
+  text-align: center;
+}
+
+.model-link-models {
+  width: 130px;
+  margin: 0px 0px 0px 220px;
+  padding: 13px 12px 13px 12px;
+  font-size: 16px;
+  border: 1px solid white;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  text-decoration: none;
+  position: absolute;
+  text-align: center;
+}
+
+.model-link-book:hover {
+  color: white;
+  background-color: #ED2939;
+  border: 1px solid #ED2939;
+}
+
+.model-link-models:hover {
+  border: 1px solid #ED2939;
+  color: #ED2939;
 }
