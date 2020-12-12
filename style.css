@@ -163,7 +163,6 @@ form {
   width: 100%;
   flex-direction: column;
   position: relative;
-  height: 55vh;
 }
 .model-title {
   position: absolute;
@@ -222,7 +221,10 @@ form {
 }
 
 .model-link-book {
-  width: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 190px;
   margin: 0px 0px 0px 30px;
   padding: 14px 12px 14px 12px;
   font-size: 16px;
@@ -237,9 +239,14 @@ form {
   text-align: center;
 }
 
+.newtab-img {
+  width: 20px;
+  margin-right: 5px;
+}
+
 .model-link-models {
   width: 130px;
-  margin: 0px 0px 0px 220px;
+  margin: 0px 0px 0px 230px;
   padding: 13px 12px 13px 12px;
   font-size: 16px;
   border: 1px solid white;
