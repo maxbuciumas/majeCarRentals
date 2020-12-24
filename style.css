@@ -143,6 +143,11 @@ form {
   top: 430px;
   left: 401px;
   text-align: center;
+  transition: background-color 0.23s;
+}
+
+.cta-pick:hover {
+  background-color: #ED2939;
 }
 
 /* Models Section */
@@ -237,6 +242,7 @@ form {
   text-decoration: none;
   position: absolute;
   text-align: center;
+  transition: color 0.23s, background-color 0.23s, border 0.23s;
 }
 
 .newtab-img {
@@ -256,6 +262,7 @@ form {
   text-decoration: none;
   position: absolute;
   text-align: center;
+  transition: border 0.23s, color 0.23s;
 }
 
 .model-link-book:hover {
