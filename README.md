@@ -5,6 +5,6 @@ I made this repo so I can learn to use Git and GitHub while also improving my fr
 
 Things left to do:
 - add the location search form in cta (DONE)
-- design the rest of the page
+- finish design of the home page (DONE) 
 - add two transitions for learning purposes (DONE)
 - make the website responsive
